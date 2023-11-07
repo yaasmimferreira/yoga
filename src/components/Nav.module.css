@@ -1,0 +1,13 @@
+.nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar navbar-expand-lg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

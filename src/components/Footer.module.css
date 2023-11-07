@@ -1,0 +1,51 @@
+.fundo{
+    background-color: var(--cor-Azul);
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img{
+    width: 365px;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.local{
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.icon {
+    width: 24px;
+    margin-bottom: 30px;
+    margin-top: 13px;
+}
+
+@media (max-width: 328px) {
+    .fundo {
+        margin-top: 21px;
+    }
+
+    .img{
+        width:250px;
+    }
+
+    .local{
+        font-size: 12px;
+    }
+
+    .icon{
+        width: 43px;
+    }
+}

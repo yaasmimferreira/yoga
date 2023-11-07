@@ -1,0 +1,23 @@
+.fundo{
+    background-color: var(--verde-fundo);
+}
+
+.titulo{
+    color: var(--cor-titulo);
+    text-align: center;
+    font-family: Alegreya Sans;
+    font-size: 43px;
+    margin-top: 48px;
+    margin-bottom: 44px;
+}
+
+.col-md-12{
+    height: 20px;
+}
+
+
+@media (max-width: 455px) {
+    .titulo{
+        font-size: 34px;
+    }
+}

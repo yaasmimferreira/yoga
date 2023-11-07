@@ -1,0 +1,92 @@
+.fundo{
+    background: var(--cor-Horario);
+    display: flex;
+    max-width: 110%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 90px;
+    padding: 25px 0px;
+    align-items: flex-start;
+}
+
+.frase{
+    color: var(--cor-titulo);
+    color: var(--cor-horario-linha);
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 55px;
+}
+.bnt {
+    color: var(--texto-aula);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 36px;
+    padding: 0px 20px;
+    background-color: var(--cor-titulo);
+    border-radius: 50px;
+    border: 1px solid var(--texto-aula);
+}
+
+.bnt:hover{
+    background-color: white;
+    border: solid 3px var(--cor-titulo);
+    color: var(--cor-titulo);
+}
+
+.coluna{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+@media (max-width: 428px) {
+    .fundo {
+        padding: 3px 0px;
+    }
+
+    .frase{
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width: 328px) {
+    .fundo {
+        margin-top: 18px;
+    }
+
+    .frase{
+        font-size: 21px;
+    }
+
+    .relogio{
+        width: 36px;
+    }
+}
+
+@media (max-width: 322px) {
+    .fundo {
+        margin-top: 0px;
+    }
+
+    .frase{
+        font-size: 15px;
+    }
+
+    .relogio{
+        width: 29px;
+    }
+
+    .bnt{
+        font-size: 6px;
+        line-height: 25px;
+        padding: 0px 11px;
+    }
+
+}
+
+

@@ -1,0 +1,86 @@
+.main{
+    height: calc(100vh - 93px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height-max: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.serenidade {
+    color: #FFD827;
+    font-size: 80px;
+    font-family: 'Concert One';
+    text-align: center;
+    margin-top: 190px;
+    font-weight: bold;
+}
+
+.brancotxt{
+    color: #F7F7F7;
+    font-family: 'Concert One';
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.frase{
+    color: #E9E9E9;
+    text-align: center;
+    font-family: 'Concert One';
+    font-size: 29px;
+    font-weight: 400;
+}
+
+@media (max-width: 650px) {
+    .serenidade {
+        margin-top: 117px;
+        font-size: 74px;
+    }
+    .brancotxt{
+        font-size: 74px;
+    }
+
+    .frase{
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width: 490px) {
+    .serenidade{
+        font-size: 60px;
+        margin-top: 159px;
+    }
+
+    .brancotxt{
+        font-size: 60px;
+    }
+
+    .frase{
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 328px) {
+    .serenidade{
+        font-size: 50px;
+        margin-top: 159px;
+    }
+
+    .brancotxt{
+        font-size: 50px;
+    }
+
+    .frase{
+        font-size: 18px;
+    }
+
+}
+
+
